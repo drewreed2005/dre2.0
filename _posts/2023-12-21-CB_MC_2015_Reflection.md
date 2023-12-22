@@ -3,14 +3,14 @@ toc: true
 comments: false
 hide: true
 layout: post
-type: ccc
+type: tangible
 courses: { csa: {week: 17} }
 title: College Board 2015 MCQ Reflection
 ---
 
 ## My Score
 
-<img src="{{site.baseurl}}/images/CB_MCQ_2015/Screen Shot 2023-12-21 at 7.56.45 PM.png">
+<img src="{{site.baseurl}}/images/CB_MCQ_2015/Screen Shot 2023-12-22 at 8.59.15 AM.png">
 
 This is my first 100% score of the year for MCs. When I comes to my overall performance, though, I feel both good and bad about it.
 

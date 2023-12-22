@@ -95,15 +95,15 @@ Load all posts
   {%comment%} 
   <!-- organizing blogs by type -->
   {%endcomment%}
-          {% if post.type == "ccc" %}
-              {% assign ccc = ccc | unshift: title %}
-              {% assign ccc = ccc | unshift: url %}  
-          {% elsif post.type == "devops" %}
-              {% assign devops = devops | unshift: title %}
-              {% assign devops = devops | unshift: url %} 
-          {% elsif post.type == "collab" %}
-              {% assign collab = collab | unshift: title %}
-              {% assign collab = collab | unshift: url %} 
+          {% if post.type == "plan" %}
+              {% assign plan = plan | unshift: title %}
+              {% assign plan = plan | unshift: url %}  
+          {% elsif post.type == "code" %}
+              {% assign code = code | unshift: title %}
+              {% assign code = code | unshift: url %} 
+          {% elsif post.type == "tangible" %}
+              {% assign tangible = tangible | unshift: title %}
+              {% assign tangible = tangible | unshift: url %} 
           {% else %}
               {% assign uk = uk | unshift: title %}
               {% assign uk = uk | unshift: url %}     
