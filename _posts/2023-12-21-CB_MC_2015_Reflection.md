@@ -4,7 +4,7 @@ comments: false
 hide: true
 layout: post
 type: ccc
-courses: { csse: {week: 0}, csp: {week: 0, categories: [4.A]}, csa: {week: 0} }
+courses: { csa: {week: 16} }
 title: College Board 2015 MCQ Reflection
 ---
 
