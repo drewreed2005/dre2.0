@@ -79,7 +79,7 @@ I was entirely responsible for the [mini-project Scrum Board](https://github.com
 
 Here are a couple commits to go over:
 - [DADDJ usr database](https://github.com/CSA-Tri-1/DADDJbackend/commit/89c361cb1c735997c704d57238edeeaebbced8d8)
-- 
+- [Big sorting algorithm commit](https://github.com/drewreed2005/PalettePuzzleBE/commit/b33c247a9dc57840dd4e3dd430aa2a73ea3d31fc)
 
 ## What am I Passionate About?
 
