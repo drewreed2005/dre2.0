@@ -9,18 +9,47 @@ title: Individual Seed Blog
 comments: true
 ---
 
-## 3.0/3.0
+## This Week's Project Contributions
+
+### Fixing JWT Not Sending
+
+At the start of this week, once again, the JWT was not sending to the frontend. As we got into the debugging assignment, I decided to focus primarily on fixing this issue.
+
+I go over all of the steps of the process in [this debugging issue](https://github.com/drewreed2005/dre2.0/issues/7), but in summary:
+- Using debugging, I was able to confirm that all user data was detected and generated correctly when a call was made; this wasn't a preflight problem or a problem with the backend's code.
+- It seemed that the only step that caused a problem was the frontend receiving the SET_COOKIE HTTP header in the request, which it ignored.
+- I researched what could cause the header to not be accepted and researched teacher_portfolio's request options, and was able to get the cookie to send successfully with modified request options!
+
+<img width="800px" src="{{site.baseurl}}/images/311056626-ea40c216-daa0-4ee2-a0fd-c432b22ed649.png">
+
+Please see the debugging issue for more details!
+
+In [this commit](https://github.com/John-sCC/jcc_frontend/commit/d07f12a099c6724a003acf274dbdc2cc87928e7b), I was able to get the JWT to send consistently with the backend locally. Right now, the deployed backend is having a problem with CORS that I'm working on fixing.
+
+Speaking of deployed backend...
+
+### Backend Deployment
+
+After fixing the JWT, I re-deployed the backend! [Click here](https://jcc.stu.nighthawkcodingsociety.com/) to see it.
+
+I made some additional modifications to the frontend (as you can see) so that it would fit our new group theme and be very distinct.
+
+## Info for Seed
+
+### 3.0/3.0
 
 - Exceptional achievement.  93% or better in last trimester of CompSci.
 
 <img width="700" src="{{site.baseurl}}/images/Screen Shot 2024-03-08 at 9.14.11 AM.png">
 
 - Exemplar in Team work.  Fosters community of learning beyond individual or single friend.
-     - [CSA Tri 2 Blog]()
+     - See [individual contributions on ticket](https://github.com/John-sCC/jcc_frontend/issues/29)
+        - As Scrum Master of my period, both team members had valuable contributions to show.
+     - See [Scrum Board](https://github.com/orgs/John-sCC/projects/1/views/1) involvement.
 - Completion of 2.7 items.
-     - See below
+     - See below.
 
-## 2.7/3.0
+### 2.7/3.0
 
 - Individual Progress. Individual maintains an at-a-glance. AP preparation progress, Key commits, GitHub Analytics, etc.  They use this blog to start each individual review.
     - [My About Page (at a glance)](https://drewreed2005.github.io/dre2.0/about/)
@@ -34,21 +63,6 @@ comments: true
     - [Trimester 1 Lesson Grades](https://drewreed2005.github.io/dre2//2023/11/03/Student_Scores_Tri_1.html)
 - Project work. Student follows team requirements and expectations. They are active in the Scrum work and timelines.
     - [Frontend Contributions](https://github.com/John-sCC/jcc_frontend/graphs/contributors)
-    - [Backend Contributions](https://github.com/John-sCC/jcc_frontend/graphs/contributors)
+    - [Backend Contributions](https://github.com/John-sCC/jcc_backend/graphs/contributors)
     - [Scrum Board](https://github.com/orgs/John-sCC/projects/1/views/1)
     - See [individual contributions on ticket](https://github.com/John-sCC/jcc_frontend/issues/29)
-
-## 1.65-2.4/3.0 Seed
-
-Very few students end up in this category.  Seed is intended to handle all issues at the lowest level, between Teacher and Student.  Office Hours and after School may be used to recover Seed.  However, Seed recovery can be a slow process.  For instance, a single classroom miss may require double the time for equitable makeup.
-
-- Individual work.  Someone that is missing or incomplete on any of the Seed items in 90% category.
-     - N/A
-- Missing class.  Someone that is missing instruction or lab time and is not making it up (e.g. bathroom, tardy, field trips, sports, etc).
-     - N/A
-- Incomplete team or individual work.  Someone that complains about circumstance that make it impossible to complete tasks, without recognition that they are not at least partially at fault.
-     - N/A
-- Distracting from class/workplace.  Students are expected to be on task and available for communication at all times in classroom, after 5 minutes of classroom settling.  There are enumerable issues that can distract, e.g. doing other classroom homework (books, paper), headphone/ear pod usage, phone usage, foul language, inappropriate messaging, etc.
-     - N/A
-- Unknown. Teacher often only knows a violation by observance.  Trying to compile a list is impossible.  If student want to perform and activity that is outside of normal classroom protocol they should simply ask.  
-     - N/A
