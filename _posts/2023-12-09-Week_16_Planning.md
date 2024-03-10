@@ -28,7 +28,8 @@ I've looked through the liquid of schedule.html and created these new tags:
 ### Contents of the Week
 
 For PBL:
-- Focus on finishing up object relationships with Person
+- Fix timing with BigSort (if possible)
+- Support AJ/Haseeb on finishing fibonacci methods (backend)
 
 For lessons:
 - Finishing touches on our SQL lesson

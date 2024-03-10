@@ -20,9 +20,9 @@ Tags aren't quite working properly and I'm getting build errors! Time to trouble
 ### Contents of the Week
 
 For PBL:
-- Get API methods working for ClassPeriod
-- Connect ClassPeriod with Person
-- Update Scrum Board with new goals (discussed at meeting)
+- Finishing touches on styling
+- Convert current content on color sorting game so that Haseeb can finish
+- Update Scrum Board with big tangible ticket
 
 For lessons:
 - Java Exploits and Cybersecurity work
