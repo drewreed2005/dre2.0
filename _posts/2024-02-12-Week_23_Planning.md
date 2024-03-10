@@ -24,3 +24,7 @@ I need my team members to also finish up:
 - JWT send with sign-in (since that's now Ekam's problem)
 - Image recognition easily displayable
 - QR code working (currently shouldn't be a problem)
+
+#### FRQs
+
+FRQs will be big and important after ski week, so I want to get as much of them done this week as I can without distracting from PBL.
